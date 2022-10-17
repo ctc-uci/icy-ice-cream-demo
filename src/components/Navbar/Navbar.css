@@ -1,0 +1,48 @@
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 90px;
+    width: 100%;
+    margin-top: 5px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1em;
+    padding-right: 2em;
+}
+
+.navbar .icy-logo {
+    height: inherit;
+    display: flex;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.navbar .icy-logo img:hover {
+    opacity: 80%;
+}
+
+.navbar .links {
+    display: flex;
+    flex-direction: row;
+    font-weight: light;
+    padding-right: 50px;
+}
+
+.navbar .links a {
+    font-size: 20px;
+    text-decoration: none;
+    color: var(--grey);
+    padding-left: 75px;
+}
+
+/* .navbar .links a:hover {
+    text-decoration: underline;
+} */
