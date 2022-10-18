@@ -1,0 +1,16 @@
+.flavors {
+    font-size: 18px;
+    text-align: center;
+}
+
+.single-item {
+    margin: 30px;
+}
+
+.flavor-title {
+    font-weight: bold;
+}
+
+.single-item p {
+    margin-block: 0 0;
+}

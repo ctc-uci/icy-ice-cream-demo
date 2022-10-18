@@ -8,7 +8,7 @@ const Locations = () => {
         <div className='locations'>
             <h1>Locations</h1>
             {cities.map(c => (
-                <LocationBanner key={c.city} city={c.city} image={c.image} />
+                <LocationBanner key={c.city} city={c.city} image={c.image} clickable />
             ))}
         </div>
     );

@@ -31,6 +31,32 @@ const cities = [
         ]
     },
     {
+        city: 'New York',
+        image: ny,
+        flavors: [
+            {
+                flavor: 'Vanilla',
+                cal: '250',
+                availibility: '12/31/22',
+            },
+            {
+                flavor: 'Salted Caramel',
+                cal: '300',
+                availibility: '11/15/22',
+            },
+            {
+                flavor: 'Strawberry',
+                cal: '220',
+                availibility: '11/30/22',
+            },
+            {
+                flavor: 'Cookie Dough',
+                cal: '320',
+                availibility: '11/30/22',
+            }
+        ]
+    },
+    {
         city: 'Irvine',
         image: irv,
         flavors: [
@@ -56,32 +82,6 @@ const cities = [
             }
         ]
     },
-    {
-        city: 'New York',
-        image: ny,
-        flavors: [
-            {
-                flavor: 'Vanilla',
-                cal: '250',
-                availibility: '12/31/22',
-            },
-            {
-                flavor: 'Salted Caramel',
-                cal: '300',
-                availibility: '11/15/22',
-            },
-            {
-                flavor: 'Strawberry',
-                cal: '220',
-                availibility: '11/30/22',
-            },
-            {
-                flavor: 'Cookie Dough',
-                cal: '320',
-                availibility: '11/30/22',
-            }
-        ]
-    }
 
 ];
 

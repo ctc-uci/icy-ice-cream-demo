@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import './LocationBanner.css';
 
 
-const LocationBanner = ({ city, image }) => {
+const LocationBanner = ({ city, image, clickable }) => {
     const redirects = {
         'San Francisco': 'san-francisco',
         'New York': 'new-york',
@@ -12,19 +12,25 @@ const LocationBanner = ({ city, image }) => {
 
     return (
         <div className="location-banner" style={{backgroundImage: `url(${image})`, backgroundSize: 'cover', backgroundPosition: 'center'}}>
-            <a href={`/locations/${redirects[city]}`}>
-                <button>
+            {clickable && <a href={`/locations/${redirects[city]}`}>
+                <button className="banner-city">
                     {city}
                 </button>
-            </a>
+            </a>}
+            {!clickable && <div className="banner-city">{city}</div>}
         </div>
     )
 };
 
 export default LocationBanner;
 
+LocationBanner.defaultProps = {
+    clickable: false,
+}
+
 LocationBanner.propTypes = {
     city: PropTypes.string.isRequired,
     image: PropTypes.string.isRequired,
-  };
+    clickable: PropTypes.bool,
+};
   
