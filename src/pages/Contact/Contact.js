@@ -64,6 +64,7 @@ const Contact = () => {
             </div>
             <div className="inner">
                 <p>Error</p>
+                <br />
                 <p>{error}</p>
             </div>
         </div>}

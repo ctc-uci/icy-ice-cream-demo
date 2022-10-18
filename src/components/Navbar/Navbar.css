@@ -43,6 +43,6 @@
     padding-left: 75px;
 }
 
-/* .navbar .links a:hover {
-    text-decoration: underline;
-} */
+.navbar .links a:hover {
+    opacity: 60%;
+}
