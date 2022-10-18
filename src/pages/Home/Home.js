@@ -6,9 +6,9 @@ import leftIcy from '../../images/LeftIceCream.png';
 const Home = () => {
   return (
     <div className="home">
-        <img src={rightIcy} alt="" />
-        <h1>Icy Ice Cream</h1>
-        <img src={leftIcy} alt="" />
+      <img src={rightIcy} alt="" />
+      <h1>Icy Ice Cream</h1>
+      <img src={leftIcy} alt="" />
     </div>
   );
 };

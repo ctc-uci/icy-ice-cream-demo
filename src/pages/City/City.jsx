@@ -5,28 +5,26 @@ import Menu from '../../components/Menu/Menu';
 import PropTypes from 'prop-types';
 import './City.css';
 
-const City = ({city}) => {
-    let info = {};
-    if (city == 'San Francisco') {
-        info = cities[0];
-    } else if (city == 'New York') {
-        info = cities[1];
-    } else {
-        info = cities[2];
-    }
+const City = ({ city }) => {
+  let info = {};
+  if (city === 'San Francisco') {
+    info = cities[0];
+  } else if (city === 'New York') {
+    info = cities[1];
+  } else {
+    info = cities[2];
+  }
 
-    console.log(info);
-    
-    return (
-        <div className='city'>
-            <LocationBanner city={city} image={info.image}/>
-            <Menu flavors={info.flavors} />
-        </div>
-    )
+  return (
+    <div className="city">
+      <LocationBanner city={city} image={info.image} />
+      <Menu flavors={info.flavors} />
+    </div>
+  );
 };
 
 City.propTypes = {
-    city: PropTypes.string.isRequired,
-}
+  city: PropTypes.string.isRequired,
+};
 
 export default City;

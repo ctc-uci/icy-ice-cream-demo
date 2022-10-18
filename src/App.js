@@ -12,14 +12,14 @@ function App() {
   return (
     <Router>
       <div className="page-container">
-      <Navbar />
+        <Navbar />
         <div className="content-wrap">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
-            <Route path="/contact" element={<Contact />}/>
+            <Route path="/contact" element={<Contact />} />
             <Route path="/locations" element={<Locations />} />
-            <Route path="/locations/san-francisco" element={<City city="San Francisco" />}/>
+            <Route path="/locations/san-francisco" element={<City city="San Francisco" />} />
             <Route path="/locations/new-york" element={<City city="New York" />} />
             <Route path="/locations/irvine" element={<City city="Irvine" />} />
           </Routes>
