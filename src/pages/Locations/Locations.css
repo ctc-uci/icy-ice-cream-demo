@@ -1,0 +1,11 @@
+.locations {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.locations h1 {
+    font-size: 36px;
+    margin-top: 30px;
+}

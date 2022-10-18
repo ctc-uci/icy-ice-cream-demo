@@ -5,6 +5,7 @@ import Navbar from './components/Navbar/Navbar';
 import Home from './pages/Home/Home';
 import About from './pages/About/About';
 import Contact from './pages/Contact/Contact';
+import Locations from './pages/Locations/Locations.jsx';
 
 function App() {
   return (
@@ -16,7 +17,10 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />}/>
-            <Route path="/locations" />
+            <Route path="/locations" element={<Locations />} />
+            <Route path="/locations/san-francisco" />
+            <Route path="/locations/new-york" />
+            <Route path="/locations/irvine" />
           </Routes>
         </div>
       </div>
