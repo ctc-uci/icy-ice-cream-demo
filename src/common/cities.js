@@ -1,7 +1,7 @@
 // to-do: add image sources and images to objects
-import ny from '../../images/NY.png';
-import irv from '../../images/Irvine.png';
-import sf from '../../images/SF.png';
+import ny from '../images/NY.png';
+import irvine from '../images/Irvine.png';
+import sf from '../images/SF.png';
 
 const cities = [
   {
@@ -58,7 +58,7 @@ const cities = [
   },
   {
     city: 'Irvine',
-    image: irv,
+    image: irvine,
     flavors: [
       {
         flavor: 'Vanilla',

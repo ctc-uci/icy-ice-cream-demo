@@ -1,5 +1,5 @@
 import React from 'react';
-import cities from '../Locations/cities';
+import cities from '../../common/cities';
 import LocationBanner from '../../components/LocationBanner/LocationBanner';
 import Menu from '../../components/Menu/Menu';
 import PropTypes from 'prop-types';

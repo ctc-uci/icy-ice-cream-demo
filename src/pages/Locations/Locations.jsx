@@ -1,5 +1,5 @@
 import React from 'react';
-import cities from './cities';
+import cities from '../../common/cities';
 import LocationBanner from '../../components/LocationBanner/LocationBanner';
 import './Locations.css';
 
