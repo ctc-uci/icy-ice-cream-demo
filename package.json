@@ -9,6 +9,7 @@
     "prettier": "^2.7.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.6.0",
     "react-router-dom": "^6.4.2",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.0"
@@ -17,6 +18,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "format": "prettier --list-different --single-quote --print-width=120 \"js/**/*.{js,jsx}\"",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

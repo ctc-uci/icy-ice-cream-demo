@@ -1,7 +1,7 @@
 import React from 'react';
 import './Home.css';
 import rightIcy from '../../images/RightIceCream.png';
-import leftIcy from '../../images/LeftIceCream.png'
+import leftIcy from '../../images/LeftIceCream.png';
 
 const Home = () => {
   return (
